@@ -1,3 +1,5 @@
+// This file is needed during the initialization of the database, now we can delete it to prevent exposing
+
 export default {
     dialect: 'postgresql',
     schema: './utils/db/schema.ts',
